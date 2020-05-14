@@ -6,7 +6,7 @@ min_key = nil
 min_value = nil
 
 name_hash.each do |key, value|
-  if value > max_value
+  if min_value > max_value
     max_value = value
     key_for_max_value = key
   end
