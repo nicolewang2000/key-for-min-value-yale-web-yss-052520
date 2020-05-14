@@ -5,13 +5,13 @@ def key_for_min_value(name_hash)
 min_key = nil
 min_value =  1000000000
 
-  if name_hash = {}
-    min_key = nil
-  else name_hash.each do |key, value|
-    value < min_value
-    mix_value = value
-    min_key = key
+if name_hash = {}
+  min_key = nil
+else name_hash.each do |key, value|
+  value < min_value
+  mix_value = value
+  min_key = key
   end
 end
-min_value
+min_key
 end
