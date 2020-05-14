@@ -6,5 +6,9 @@ min_key = nil
 min_value =  1000000000
 
 name_hash.each do |key, value|
-  
+  if value < min_value
+    min_value = value
+  end 
+end 
+
 end
